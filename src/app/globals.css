@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e9e3dc;
+  color: #223614;
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+:root {
+  --primary: #1F2F3A;
+  --secondary: #F3EFEA;
+  --accent: #6F8A7A;
+  --accent-dark: #4F6B5B;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
