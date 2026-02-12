@@ -31,7 +31,7 @@ export default function AboutSection() {
           className="relative h-[460px] w-full"
         >
           <Image
-            src="/images/maya.png"
+            src="/images/Maya.png"
             alt="Dr. Maya Reynolds, Licensed Clinical Psychologist in Santa Monica"
             fill
             className="object-cover object-[center_15%] rounded-lg"
